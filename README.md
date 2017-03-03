@@ -1,18 +1,11 @@
 ############################################
 
-# URL: ffuxa.github.io
-
-############################################
-
-Personal Website designed to display bio, 
-  contact info, and personal projects
+# Personal Website designed to display bio, contact info, and personal projects
   
 ############################################
 
-#     Uses Bootstrap web framework
-    
-#     Hosted on GitHub
+  - URL: ffuxa.github.io
+  - Uses Bootstrap web framework
+  - Hosted on GitHub
     
 ############################################
-
-# PROJECTS: under construction
