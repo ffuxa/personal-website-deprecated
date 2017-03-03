@@ -1,0 +1,118 @@
+body {
+	background: #FBFBF6;
+	margin:0;
+  padding-top: 50px;
+  padding-bottom: -10px;
+}
+
+.img {
+  max-width: 30%;
+  max-height: 30%;
+  display: block;
+  margin: auto;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.row li {
+  width: 33.3%;
+  float: left;
+}
+
+img {
+  border: 0 none;
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+#download {
+  text-align: center;
+}
+
+#logos {
+  display: inline-block;
+}
+
+#resumeJPG {
+  max-width: 90%;
+  max-height: 90%;
+  display: block;
+  margin: auto;
+}
+
+#intro {
+  background-color: #eee;
+}
+
+#about {
+  padding: 20px 15px;
+  background-color: white;
+}
+
+#projects {
+  padding: 20px 15px;
+  background-color: #FBFBF1;
+}
+
+#resume {
+  padding: 20px 15px;
+  background-color: #F0F8FF;
+}
+
+/*
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5d5253;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 16px;
+  font-family: "Palatino Linotype";
+}
+
+
+
+ul.topnav li a:hover {background-color: #009FFF;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}*/
