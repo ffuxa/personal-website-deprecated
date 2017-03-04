@@ -1,0 +1,32 @@
+.img {
+  max-width: 30%;
+  max-height: 30%;
+  display: block;
+  margin: auto;
+}
+
+#download {
+  text-align: center;
+}
+
+#resumeJPG {
+  max-width: 90%;
+  max-height: 90%;
+  display: block;
+  margin: auto;
+}
+
+/*
+------For responsive nav bar------
+
+nav.navbar {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+nav.navbar.shrink {
+  min-height: 100px;
+}
+
+---------------------------------
+*/
