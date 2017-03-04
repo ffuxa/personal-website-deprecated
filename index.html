@@ -32,13 +32,14 @@ Main html code for personal website
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="images/f.png">
     <script src="https://use.fontawesome.com/400293bbae.js"></script>
+    <script src="js/header.js"></script>
 
   </head>
 
 
 
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -81,14 +82,14 @@ Main html code for personal website
 
     <div id="about">
       <div class="container">
-        <h3>About Me</h3>
+        <h2 style="text-align: center">About Me</h2>
 
         <br>
         <p style="text-align: center"><em>“Life is nothing more than the happiness that you get out of it - Jean Anouilh”</em></p>
         <br>
 
         <ul>
-          <b>Life goals: </b> 
+          <b>Life goals:</b> 
             <ul> 
               <li>Get a job as a full stack web developer</li>
               <li>Become a full stack web developer</li>
@@ -98,7 +99,7 @@ Main html code for personal website
 
           <br>
 
-          <b>Interests: </b> 
+          <b>Interests:</b> 
             <ul> 
               <li>Web Development</li>
               <li>Hacking (unfortunately, not the type of 'hacking' from the movies)</li>
@@ -111,59 +112,70 @@ Main html code for personal website
           <b>Programing Skills</b>
           <br><br>
 
-            <div class="row">
-              <div id="small-img" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center">
-                <li style="list-style: none">
-                  <img src="images/python.png" style="padding: 10px;" class="img-responsive inline-block" alt="Responsive image" />
-                </li>
-                <li style="list-style: none">
-                  <img src="images/cpp.png" style="padding: 10px;" class="img-responsive inline-block" alt="Responsive image" />
-                </li>
-                <li style="list-style: none">
-                  <img src="images/html_css.png" style="padding: 10px;" class="img-responsive inline-block" alt="Responsive image" />
-                </li>
-                <li style="list-style: none">
-                  <img src="images/js.png" style="padding: 10px;" class="img-responsive inline-block" alt="Responsive image" />
-                </li>
-                <li style="list-style: none">
-                  <img src="images/sql.png" style="padding: 10px;" class="img-responsive inline-block" alt="Responsive image" />
-                </li>
-                <li style="list-style: none">
-                  <img src="images/swift.png" style="padding: 10px;" class="img-responsive inline-block" alt="Responsive image" />
-                </li>
-              </div>
+          <div class="row">
+            <div id="small-img" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center">
+              <ul>
+              <li style="list-style: none">
+                <img src="images/python.png" style="padding: 10px;" class="img-responsive inline-block" alt="Responsive image" />
+              </li>
+              <li style="list-style: none">
+                <img src="images/cpp.png" style="padding: 10px;" class="img-responsive inline-block" alt="Responsive image" />
+              </li>
+              <li style="list-style: none">
+                <img src="images/html_css.png" style="padding: 10px;" class="img-responsive inline-block" alt="Responsive image" />
+              </li>
+              <li style="list-style: none">
+                <img src="images/js.png" style="padding: 10px;" class="img-responsive inline-block" alt="Responsive image" />
+              </li>
+              <li style="list-style: none">
+                <img src="images/sql.png" style="padding: 10px;" class="img-responsive inline-block" alt="Responsive image" />
+              </li>
+              <li style="list-style: none">
+                <img src="images/swift.png" style="padding: 10px;" class="img-responsive inline-block" alt="Responsive image" />
+              </li>
+              </ul>
             </div>
-
-            <!--
-            <div id="logos">
-              <img style="display: inline; margin: 5px 5px; padding-right: 25px;" title="python" src="images/python.png" alt=""/>
-              <img style="display: inline; margin: 5px 5px; padding-right: 20px;" title="c++" src="images/cpp.png" alt=""/>
-              <img style="display: inline; margin: 5px 5px;" title="html" src="images/html.png" alt=""/>
-              <img style="display: inline; margin: 5px 5px; padding-right: 10px;" title="css" src="images/css.png" alt=""/>
-              <img style="display: inline; margin: 5px 5px;" title="js" src="images/js.png" alt=""/>
-              <img style="display: inline; margin: 5px 0px;" title="sql" src="images/sql.png" alt=""/>              
-            </div>
-            -->
+          </div>
 
           <br>
+
         </ul>
       </div><!-- /.container -->
     </div>
 
     <div id="projects">
       <div class="container">
-        <h3>Projects</h3>
+        <h2 style="text-align: center">Projects</h2>
 
         <br>
-        <p style="text-align: center"><em>Under Construction</em></p>
-        <br>
 
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="hovereffect">
+              <img class="img-responsive" src="images/profile.jpg" alt="">
+                <div class="overlay">
+                   <h2>ffuxa.github.io</h2>
+                   <a class="info" href="ffuxa.github.io">Personal website designed to display bio, contact info, and personal projects (this one!). Uses HMTL, CSS, JavaScript and Bootstrap</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="hovereffect">
+                <img class="img-responsive" src="images/sudoku.png" alt="">
+                <div class="overlay">
+                   <h2>Sudoku Solver (Coming Soon)</h2>
+                   <a class="info" href="#">High speed sudoku solver that solves any sudoku puzzle in seconds</a>
+                </div>
+            </div>
+        </div>
+
+        <br>
       </div><!-- /.container -->
     </div>
 
     <div id="resume">
       <div class="container">
-        <h3>Resume</h3>
+        <h2 style="text-align: center">Resume</h2>
 
         <br>
         <a href="resume/Resume_Fabian_Fuxa.pdf" target="_blank"><img id="resumeJPG" src="images/resume.jpg" alt="resume"></a>
