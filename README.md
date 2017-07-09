@@ -1,5 +1,3 @@
-############################################
-
 # Personal Website designed to display bio, contact info, and personal projects
   
 ############################################
